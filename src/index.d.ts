@@ -5,9 +5,5 @@ declare namespace NodeJS {
   }
 }
 
-interface Memory {
-  uuid: number;
-  log: any;
-}
+declare const __REVISION__: string;
 
-declare const __REVISION__: string

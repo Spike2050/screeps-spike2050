@@ -44,12 +44,12 @@ function makeVSCLink(pos: SourcePos): string {
   return link(vscUrl(pos.path, `L${pos.line.toString()}`), pos.original);
 }
 
-function color(str: string, color: string): string {
-  return `<font color='${color}'>${str}</font>`;
+function color(str: string, _color: string): string {
+  return `<font color='${_color}'>${str}</font>`;
 }
 
-function tooltip(str: string, tooltip: string): string {
-  return `<abbr title='${tooltip}'>${str}</abbr>`;
+function tooltip(str: string, _tooltip: string): string {
+  return `<abbr title='${_tooltip}'>${str}</abbr>`;
 }
 
 function vscUrl(path: string, line: string): string {

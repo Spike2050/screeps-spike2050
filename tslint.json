@@ -17,6 +17,10 @@
       "check-format",
       "allow-pascal-case",
       "allow-leading-underscore"
-    ]
+    ],
+    "no-trailing-whitespace": false,
+    "no-unused-expression": {"severity": "warning"},
+    "no-unused-variable": [true, {"severity": "warning"}],
+    "max-line-length": [true, 256]
   }
 }
