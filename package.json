@@ -1,9 +1,9 @@
 {
-  "name": "screeps-typescript-starter",
+  "name": "screeps-spike2050",
   "version": "2.0.0",
   "description": "",
   "private": true,
-  "repository": "screepers/screeps-typescript-starter",
+  "repository": "Spike2050/screeps-spike2050",
   "scripts": {
     "deploy": "webpack --colors --env.ENV=dev",
     "lint": "tslint \"src/**/*.ts\" -e \"**/src/lib/**/*.ts\"",

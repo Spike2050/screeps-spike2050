@@ -1,3 +1,8 @@
+# Screeps-Spike2050
+
+This is my Version of a Screeps Bot, if you want to comment, go ahead :-)
+The rest of the readme is from the Typescript Starter Project from when I forked.
+
 # screeps-typescript-starter v2.0
 
 > Starter kit for [TypeScript](http://www.typescriptlang.org/)-based [Screeps](https://screeps.com/) AI codes.
